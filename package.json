@@ -1,0 +1,41 @@
+{
+    "name": "uptasknodejs",
+    "version": "1.0.0",
+    "description": "Proyecto UpTask con Node y MVC",
+    "main": "index.js",
+    "scripts": {
+        "desarrollo": "concurrenly\"npm ren dev\" \" \"npm run watch\" ",
+        "dev": "nodemon ./index.js",
+        "start": "node ./index.js"
+    },
+    "author": "Eugenia Luna",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "axios": "^0.21.1",
+        "bcrypt-nodejs": "^0.0.3",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.5",
+        "currently": "^0.0.8",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "express-validator": "^6.11.1",
+        "html-to-text": "^7.1.1",
+        "juice": "^8.0.0",
+        "mysql2": "^2.2.5",
+        "nodemailer": "^6.6.1",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "pug": "^3.0.2",
+        "sequelize": "^6.6.2",
+        "shortid": "^2.2.16",
+        "slug": "^5.0.1",
+        "sweetalert2": "^11.0.16"
+    },
+    "devDependencies": {
+        "babel-loader": "file:babel/core@babel/preset-env",
+        "nodemon": "^2.0.7",
+        "webpack": "^5.38.1"
+    }
+}
