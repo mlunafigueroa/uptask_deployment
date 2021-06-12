@@ -10,7 +10,6 @@ const passport = require('./config/passport');
 //importar variables
 require('dotenv').config({ path: 'variables.env' });
 
-
 //importar helpers
 const helpers = require('./helpers');
 
