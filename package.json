@@ -6,7 +6,6 @@
     "scripts": {
         "desarrollo": "concurrenly\"npm ren dev\" \" \"npm run watch\" ",
         "dev": "nodemon ./index.js",
-        "postintall": "./node-modules/.bin/webpack",
         "start": "node ./index.js"
     },
     "author": "Eugenia Luna",
